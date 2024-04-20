@@ -1,8 +1,6 @@
 import { Card } from '@mui/material'
-import './style.scss'
 
-// @ts-ignore
-export default function LearningText({ text }) {
+export default function LearningText({ text }: any) {
     return (
         <Card
             sx={{
